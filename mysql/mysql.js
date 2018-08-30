@@ -29,6 +29,6 @@ let query = (sql, value) => {
 }
 
 exports.findAllUsers = () => {
-  let _sql = 'select * from uuserinfo;'
+  let _sql = 'select * from userinfo;'
   return query(_sql)
 }
